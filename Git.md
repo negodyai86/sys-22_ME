@@ -8,8 +8,6 @@
 
 ### Задание 1
 
-`Выполнение заданий показывать скриншотами скриншотами : `
-
 Аккаунт создан
 
 Галочка проставлена, для создания README
@@ -28,22 +26,20 @@
 
 <img src = "image/git/git4.jpg" width = 100%>
 
-
-
 [Ссылка на commit](https://github.com/negodyai86/sys-22_ME/blob/main/Git.md?plain=1)
-
-
 
 Задание 2
 
 <img src = "image/git/git5.jpg" width = 100%>
 
-
-=======
-
 <img src = "image/git/git6.jpg" width = 100%>
-
-
 
 [Ссылка на commit](https://github.com/negodyai86/sys-22_ME/blob/main/image/git/.gitgnore)
 
+Задание 3
+
+<img src = "image/git/git8.jpg" width = 100%>
+
+<img src = "image/git/git9.jpg" width = 100%>
+
+[Ссылка на commit](https://github.com/negodyai86/sys-22_ME/network)
