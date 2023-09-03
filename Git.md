@@ -34,5 +34,9 @@
 
 
 
+Задание 2
+
+<img src = "image/git/git5.jpg" width = 100%>
+
 
 =======
