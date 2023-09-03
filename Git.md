@@ -30,7 +30,7 @@
 
 
 
-[Ссылка на commit](https://github.com/negodyai86/sys-22_ME/commit/0fd498cd3ea05d5532fc91385fc35dd4df215b50)
+[Ссылка на commit](https://github.com/negodyai86/sys-22_ME/blob/main/Git.md?plain=1)
 
 
 
@@ -40,3 +40,10 @@
 
 
 =======
+
+<img src = "image/git/git6.jpg" width = 100%>
+
+
+
+[Ссылка на commit](https://github.com/negodyai86/sys-22_ME/blob/main/image/git/.gitgnore)
+
