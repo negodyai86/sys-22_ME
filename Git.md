@@ -16,7 +16,17 @@
 
 Склонировал репозиторий
 
-<img src = "image/git/111.jpg" width = 100%>
+<img src = "image/git/git1.jpg" width = 100%>
+
+Произвёл первоначальную настройку Git, указав своё настоящее имя и email
+
+<img src = "image/git/git2.jpg" width = 100%>
+
+с 6 по 13 пункты :
+
+<img src = "image/git/git3.jpg" width = 100%>
+
+<img src = "image/git/git4.jpg" width = 100%>
 
 
 
