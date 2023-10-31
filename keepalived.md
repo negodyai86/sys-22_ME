@@ -18,11 +18,11 @@
 
 ### Ответ 1
 
-<img src = "image/10/ciscotracer1.jpg" width = 100%>
+<img src = "image/git/10/ciscotracer1.jpg" width = 100%>
 
-<img src = "image/10/ciscotracer2.jpg" width = 100%>
+<img src = "image/git/10/ciscotracer2.jpg" width = 100%>
 
-<img src = "image/10/ciscotracer3.jpg" width = 100%>
+<img src = "image/git/10/ciscotracer3.jpg" width = 100%>
 
 
 [Файл .pkt] https://github.com/negodyai86/sys-22_ME/blob/main/files/hsrp_advance_disaster1.pkt
@@ -71,10 +71,10 @@ vrrp_instance VI_1 {
 }
 ```
 
-<img src = "image/10/keepalived1.jpg" width = 100%>
+<img src = "image/git/10/keepalived1.jpg" width = 100%>
 
-<img src = "image/10/keepalived3.jpg" width = 100%>
+<img src = "image/git/10/keepalived3.jpg" width = 100%>
 
-<img src = "image/10/keepalived2.jpg" width = 100%>
+<img src = "image/git/10/keepalived2.jpg" width = 100%>
 
-<img src = "image/10/keepalived4.jpg" width = 100%>
+<img src = "image/git/10/keepalived4.jpg" width = 100%>
