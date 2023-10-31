@@ -22,11 +22,10 @@
 
 <img src = "img/10/ciscotracer2.jpg" width = 100%>
 
-<img src = "10/ciscotracer3.jpg" width = 100%>
+<img src = "img/10/ciscotracer3.jpg" width = 100%>
 
 
-
---------
+[Файл .pkt] https://github.com/negodyai86/sys-22_ME/blob/main/files/hsrp_advance_disaster1.pkt
 
 1. ### Задание 2
 
