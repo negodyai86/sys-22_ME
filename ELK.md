@@ -32,7 +32,7 @@
 <details>
   <summary>Ответ 1: </summary>
 
-![Скриншот-1](<img src = "image/git/11.03/1.jpg" width = 100%>)
+!<img src = "image/git/11.03/1.jpg" width = 100%>
 </details>
 
 
@@ -52,7 +52,7 @@
 <details>
    <summary> Ответ 2: </summary>
 
-![Скриншот-2](<img src = "image/git/11.03/2.jpg" width = 100%>)
+!<img src = "image/git/11.03/2.jpg" width = 100%>
 
 </details>
 
@@ -76,7 +76,7 @@
 <details>
    <summary> Ответ 3: </summary>
 
-![Скриншот-3](<img src = "image/git/11.03/3.jpg" width = 100%>)
+!<img src = "image/git/11.03/3.jpg" width = 100%>
 
 </details>
 
@@ -103,7 +103,7 @@
 <details>
    <summary> Ответ 4: </summary>
 
-![Скриншот-4](<img src = "image/git/11.03/4.jpg" width = 100%>)
+!<img src = "image/git/11.03/4.jpg" width = 100%>
 
 </details>
 
