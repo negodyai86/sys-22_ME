@@ -128,6 +128,7 @@ customer         | customer_id
 #### ОТВЕТ:
   
 <img src = "image/git/12/DDL-DML.5.jpg" width = 100%>
+
 ```
 Название таблицы             | Название первичного ключа
 actor                        | actor_id
