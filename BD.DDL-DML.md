@@ -45,14 +45,14 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-1](img src = "image/git/12/DDL-DML.1.jpg" width = 100%)
+(img src = "image/git/12/DDL-DML.1.jpg" width = 100%)
 
 1.4. Дайте все права для пользователя sys_temp. 
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-2](img src = "image/git/12/DDL-DML.2.jpg" width = 100%)
+(img src = "image/git/12/DDL-DML.2.jpg" width = 100%)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
@@ -61,7 +61,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 #### ОТВЕТ:
-![Скриншот-3](img src = "image/git/12/DDL-DML.3.jpg" width = 100%)
+(img src = "image/git/12/DDL-DML.3.jpg" width = 100%)
 
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
@@ -70,7 +70,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-4](img src = "image/git/12/DDL-DML.4.jpg" width = 100%)
+(img src = "image/git/12/DDL-DML.4.jpg" width = 100%)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
@@ -127,7 +127,7 @@ customer         | customer_id
    <summary> Ответ 2: </summary>
 #### ОТВЕТ:
   
-![Скриншот-5](img src = "image/git/12/DDL-DML.5.jpg" width = 100%)
+(img src = "image/git/12/DDL-DML.5.jpg" width = 100%)
 ```
 Название таблицы             | Название первичного ключа
 actor                        | actor_id
