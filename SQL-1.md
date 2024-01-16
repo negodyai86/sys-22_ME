@@ -82,3 +82,45 @@ WHERE active = 1 AND (first_name LIKE 'Kelly' OR first_name LIKE 'Willie');
 
 ---
 
+## Дополнительные задания (со звёздочкой*)
+Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
+
+---
+
+<details>
+   <summary> Задание 5*: </summary>
+Выведите Email каждого покупателя, разделив значение Email на две отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй — значение, указанное после @.
+</details>
+
+
+<details>
+   <summary> Ответ 5: </summary>
+  
+```sql
+SELECT SUBSTRING_INDEX(email,'@',1) AS address, SUBSTRING_INDEX(email,'@',-1) AS domen
+FROM customer;
+```
+
+</details>
+
+---
+
+<details>
+   <summary> Задание 6*: </summary>
+Доработайте запрос из предыдущего задания, скорректируйте значения в новых колонках: первая буква должна быть заглавной, остальные — строчными.
+</details>
+
+
+<details>
+   <summary> Ответ 6: </summary>
+  
+```sql
+SELECT CONCAT(UPPER(LEFT(LOWER(SUBSTRING_INDEX(email,'@',1)),1)), substr(LOWER(SUBSTRING_INDEX(email,'@',1)), 2)) AS address, 
+CONCAT(UPPER(LEFT(SUBSTRING_INDEX(email,'@',-1),1)), substr(SUBSTRING_INDEX(email,'@',-1), 2)) AS domen
+FROM customer;
+```
+
+</details>
+
+---
+
