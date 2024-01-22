@@ -71,8 +71,6 @@ ORDER BY SUM(p.amount ) DESC
 LIMIT 1;
 ```
 
-```
-
 </details>
 
 ---
