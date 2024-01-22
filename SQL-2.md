@@ -64,7 +64,7 @@ WHERE f.`length` > (SELECT AVG(`length`) FROM film)
    <summary> Ответ 3: </summary>
   
 ```sql
-SELECT *, DATE_FORMAT(date, '%d.%m.%Y') as new_date FROM employees, SUM(p.amount), COUNT(p.rental_id) 
+SELECT *, DATE_FORMAT(date, '%d.%m.%Y'), SUM(p.amount), COUNT(p.rental_id) 
 FROM payment p
 GROUP BY MONTH(payment_date)
 ORDER BY SUM(p.amount ) DESC
