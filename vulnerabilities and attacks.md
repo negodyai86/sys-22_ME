@@ -37,6 +37,7 @@
   <summary>Ответ 1: </summary>
   
 Списко сетевых служб :
+
 <img src = "image/git/13/13.1.jpg" width = 70%>
 
 
@@ -102,15 +103,19 @@
 
 2)
 SYN сканирование
+
 <img src = "image/git/13/13.2.jpg" width = 80%>
 
 FIN сканирование
+
 <img src = "image/git/13/13.3.jpg" width = 80%>
 
 Xmas сканирование
+
 <img src = "image/git/13/13.4.jpg" width = 80%>
 
 UDP сканирование
+
 <img src = "image/git/13/13.5.jpg" width = 80%>
 
 </details>
