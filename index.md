@@ -98,24 +98,6 @@ GROUP BY c.customer_id;
                     -> Covering index lookup on r using rental_date (rental_date=p.payment_date)  (cost=0.25 rows=1.01) (actual time=0.0023..0.00324 rows=1.01 loops=634)
                 -> Single-row index lookup on c using PRIMARY (customer_id=r.customer_id)  (cost=0.25 rows=1) (actual time=0.00125..0.00128 rows=1 loops=642)
 ```
-Ввводим индекс:
-```sql
-CREATE INDEX payday ON payment(payment_date);
-```
-Результаты предыдущего EXPLAIN ANALYZE но с индексом:
-```sql
--> Limit: 200 row(s)  (cost=8062 rows=187) (actual time=0.464..38.9 rows=200 loops=1)
-    -> Group aggregate: sum(p.amount)  (cost=8062 rows=187) (actual time=0.463..38.8 rows=200 loops=1)
-        -> Nested loop inner join  (cost=8043 rows=187) (actual time=0.3..38.4 rows=317 loops=1)
-            -> Nested loop inner join  (cost=4022 rows=187) (actual time=0.096..14.6 rows=7694 loops=1)
-                -> Index scan on c using PRIMARY  (cost=0.0228 rows=7) (actual time=0.0295..0.252 rows=284 loops=1)
-                -> Index lookup on r using idx_fk_customer_id (customer_id=c.customer_id)  (cost=6.69 rows=26.7) (actual time=0.0395..0.0484 rows=27.1 loops=284)
-            -> Index lookup on p using payday (payment_date=r.rental_date), with index condition: (cast(p.payment_date as date) = '2005-07-30')  (cost=0.25 rows=1) (actual time=0.00287..0.0029 rows=0.0412 loops=7694)
-```
-
-Для оптимизации запроса был внесен индекс на столбец payment_date в таблице payment, что значительно улучшило производительность запроса. 
-После внесения изменений запрос стал значительно быстрее, сократив время выполнения с нескольких секунд до миллисекунд. Теперь запрос работает более эффективно и оптимизированно.
-
 </details>
 
 <summary> Новый вариант: </summary>
