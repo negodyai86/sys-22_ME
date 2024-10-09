@@ -18,7 +18,7 @@
 
 Произвёл первоначальную настройку Git, указав своё настоящее имя и email
 
-<img src = "image/git/git2.jpg" width = 100%>
+<img src = "image/git/git1.jpg" width = 100%>
 
 с 6 по 13 пункты :
 
